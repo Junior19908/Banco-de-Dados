@@ -1,0 +1,33 @@
+# Privileges for `energia`@`%`
+
+GRANT ALL PRIVILEGES ON *.* TO 'energia'@'%' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `energia\_%`.* TO 'energia'@'%';
+
+
+# Privileges for `faturamento`@`%`
+
+GRANT ALL PRIVILEGES ON *.* TO 'faturamento'@'%' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `faturamento\_%`.* TO 'faturamento'@'%';
+
+
+# Privileges for `posto`@`%`
+
+GRANT ALL PRIVILEGES ON *.* TO 'posto'@'%' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `posto\_%`.* TO 'posto'@'%';
+
+
+# Privileges for `remoto`@`%`
+
+GRANT ALL PRIVILEGES ON *.* TO 'remoto'@'%' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `remoto\_%`.* TO 'remoto'@'%';
+
+
+# Privileges for `sistemagsgalmoxarifado`@`%`
+
+GRANT ALL PRIVILEGES ON *.* TO 'sistemagsgalmoxarifado'@'%' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `sistemagsgalmoxarifado\_%`.* TO 'sistemagsgalmoxarifado'@'%';
