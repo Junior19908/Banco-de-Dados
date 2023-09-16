@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 19-Dez-2022 às 01:24
--- Versão do servidor: 5.7.25
--- versão do PHP: 7.1.26
+-- Generation Time: Sep 10, 2023 at 12:59 AM
+-- Server version: 5.7.25
+-- PHP Version: 7.1.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_boleto`
+-- Table structure for table `tb_boleto`
 --
 
 CREATE TABLE `tb_boleto` (
@@ -69,7 +69,7 @@ CREATE TABLE `tb_boleto` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `tb_boleto`
+-- Dumping data for table `tb_boleto`
 --
 
 INSERT INTO `tb_boleto` (`Id`, `material`, `desc_item`, `qtd`, `centro`, `custo`, `cod_imp`, `base_calculo`, `vl_icms`, `txt_pedido`, `material_dif`, `desc_item_dif`, `qtd_dif`, `centro_dif`, `custo_dif`, `cod_imp_dif`, `vl_dif`, `iva_dif`, `emissao`, `nfe`, `err`, `err_col`, `txt_miro`, `data_venc`, `Mes_ref`, `cod_unico`, `pedido`, `migo`, `miro`, `fecoep`, `valor_miro`, `status`, `empresa`, `mes_dupl`, `vl_dupl`, `now_date`, `caminho`) VALUES
@@ -4245,7 +4245,7 @@ INSERT INTO `tb_boleto` (`Id`, `material`, `desc_item`, `qtd`, `centro`, `custo`
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_icms`
+-- Table structure for table `tb_icms`
 --
 
 CREATE TABLE `tb_icms` (
@@ -4254,7 +4254,7 @@ CREATE TABLE `tb_icms` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `tb_icms`
+-- Dumping data for table `tb_icms`
 --
 
 INSERT INTO `tb_icms` (`Id`, `porcentagem`) VALUES
@@ -4267,7 +4267,7 @@ INSERT INTO `tb_icms` (`Id`, `porcentagem`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_imposto`
+-- Table structure for table `tb_imposto`
 --
 
 CREATE TABLE `tb_imposto` (
@@ -4276,7 +4276,7 @@ CREATE TABLE `tb_imposto` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `tb_imposto`
+-- Dumping data for table `tb_imposto`
 --
 
 INSERT INTO `tb_imposto` (`Id`, `cl_cod`) VALUES
@@ -4286,7 +4286,7 @@ INSERT INTO `tb_imposto` (`Id`, `cl_cod`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_mes`
+-- Table structure for table `tb_mes`
 --
 
 CREATE TABLE `tb_mes` (
@@ -4295,7 +4295,7 @@ CREATE TABLE `tb_mes` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `tb_mes`
+-- Dumping data for table `tb_mes`
 --
 
 INSERT INTO `tb_mes` (`Id`, `ano`) VALUES
@@ -4315,7 +4315,7 @@ INSERT INTO `tb_mes` (`Id`, `ano`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_multa`
+-- Table structure for table `tb_multa`
 --
 
 CREATE TABLE `tb_multa` (
@@ -4329,7 +4329,7 @@ CREATE TABLE `tb_multa` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_notif`
+-- Table structure for table `tb_notif`
 --
 
 CREATE TABLE `tb_notif` (
@@ -4342,7 +4342,7 @@ CREATE TABLE `tb_notif` (
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_user`
+-- Table structure for table `tb_user`
 --
 
 CREATE TABLE `tb_user` (
@@ -4353,7 +4353,7 @@ CREATE TABLE `tb_user` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Extraindo dados da tabela `tb_user`
+-- Dumping data for table `tb_user`
 --
 
 INSERT INTO `tb_user` (`Id`, `nome`, `senha`, `nivel`) VALUES
